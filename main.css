@@ -1,0 +1,57 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  background: #222;
+  color: #fff;
+  font: bold 25px/150% "Book Antiqua", "Palatino Linotype", "Times", serif;
+}
+
+#wrapper
+{
+  width: 1000px;
+  margin: 150px auto;
+}
+
+#left
+{
+  float: left;
+  width: 60%;
+  text-align: center;
+  padding: 20px;
+  border-right: 1px solid #fff;
+}
+
+#image
+{
+}
+
+#advice-banner
+{
+  font-style: italic;
+  font-size: 20px;
+}
+
+#tips-banner
+{
+  font-size: 14px;
+}
+
+#advice-banner span
+{
+  font-size: 50px;
+}
+
+#right
+{
+  float: left;
+  width: 30%;
+  padding: 40px 20px;
+}
+
+#message-info
+{
+ font-size: 14px;
+ font-style: italic;
+ color: #aaa;
+}
