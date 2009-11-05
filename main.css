@@ -22,8 +22,10 @@ body
   border-right: 1px solid #fff;
 }
 
-#image
+#image img
 {
+  -webkit-box-shadow: 0 6px 15px #000;
+  -moz-box-shadow: #000 0 6px 15px;
 }
 
 #advice-banner
