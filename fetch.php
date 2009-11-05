@@ -34,20 +34,6 @@ if (count($messages) <= 0)
   // No new messages, so get 5 random already displayed messages
   $sql = "SELECT id, message, sender, ts FROM googletext WHERE approved = true ORDER BY rand() LIMIT 5";
   doQuery($sql, $messages, $connection);
-  
-  // if (count($messages) <= 0)
-  // {
-  //   $messages[] = "Lorem ipsum dolor sit amet";
-  //   $messages[] = "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
-  //   $messages[] = "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
-  //   $messages[] = "Duis aute irure dolor";
-  //   $messages[] = "in reprehenderit in voluptate velit esse cillum dolore";
-  //   $messages[] = "eu fugiat nulla pariatur.";
-  //   $messages[] = "Excepteur sint occaecat cupidatat non proident";
-  //   $messages[] = "sunt in culpa qui";
-  //   $messages[] = "officia deserunt mollit";
-  //   $messages[] = "anim id est laborum.";
-  // }
 }
 
 if (count($messages) > 0)
